@@ -17,13 +17,9 @@ variable "pull_arns" {
   type        = list(string)
   description = "List of IAM ARNs that can push and pull images and tags."
 }
-variable "ecr_name" {
+variable "application_name" {
   type        = string
-  description = "Name of the ECR repository."
-}
-variable "repo_name" {
-  description = "Name of the repository"
-  type        = string
+  description = "Name of the ECRand git repository."
 }
 
 variable "description" {

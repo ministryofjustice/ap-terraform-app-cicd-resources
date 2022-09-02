@@ -1,3 +1,4 @@
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -26,14 +27,13 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_application_name"></a> [application\_name](#input\_application\_name) | Name of the ECRand git repository. | `string` | n/a | yes |
 | <a name="input_description"></a> [description](#input\_description) | Description for the repository | `string` | n/a | yes |
-| <a name="input_ecr_name"></a> [ecr\_name](#input\_ecr\_name) | Name of the ECR repository. | `string` | n/a | yes |
 | <a name="input_openid_connect_provider_arn"></a> [openid\_connect\_provider\_arn](#input\_openid\_connect\_provider\_arn) | The ARN of the AWS IAM OpenID connect provider | `any` | n/a | yes |
 | <a name="input_organisation"></a> [organisation](#input\_organisation) | The name of the GitHub organisation or user | `any` | n/a | yes |
 | <a name="input_pull_arns"></a> [pull\_arns](#input\_pull\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
 | <a name="input_push_arns"></a> [push\_arns](#input\_push\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
 | <a name="input_repo"></a> [repo](#input\_repo) | The name of the GitHub repository | `any` | n/a | yes |
-| <a name="input_repo_name"></a> [repo\_name](#input\_repo\_name) | Name of the repository | `string` | n/a | yes |
 | <a name="input_template_owner"></a> [template\_owner](#input\_template\_owner) | Name of the organisation owning the template repository | `string` | n/a | yes |
 | <a name="input_template_repository"></a> [template\_repository](#input\_template\_repository) | Name of the template repository to use | `string` | n/a | yes |
 
