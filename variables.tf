@@ -1,13 +1,16 @@
 variable "organisation" {
   description = "The name of the GitHub organisation or user"
+  type        = string
 }
 
 variable "repo" {
   description = "The name of the GitHub repository"
+  type        = string
 }
 
 variable "openid_connect_provider_arn" {
   description = "The ARN of the AWS IAM OpenID connect provider"
+  type        = string
 }
 variable "push_arns" {
   type        = list(string)
@@ -36,4 +39,10 @@ variable "template_owner" {
 variable "template_repository" {
   description = "Name of the template repository to use"
   type        = string
+}
+
+variable "tags" {
+  description = "A map of tags to add to the resources"
+  type        = map(string)
+  default     = {}
 }

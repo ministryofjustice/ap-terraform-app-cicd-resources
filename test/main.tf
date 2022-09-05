@@ -1,7 +1,7 @@
 module "example" {
   source = "./.."
 
-  
+
   description         = "githubrepotest"
   template_owner      = "gitrepo"
   template_repository = "templaterepo"
