@@ -1,3 +1,15 @@
+ap-terraform-app-cicd-resources module to combine ap-terraform-ecr-repository, ap-terraform-app-github-repo and ap-terraform-app-deployment-role modules
+
+
+![image](/docs/diagram.png)
+
+Note: This module has no provider requirements but the modules called require
+
+terraform >=0.14.0
+
+aws ~>3.71.0
+
+
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -5,8 +17,6 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.14.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 3.71.0 |
-| <a name="requirement_github"></a> [github](#requirement\_github) | >= 4.0 |
 
 ## Providers
 
