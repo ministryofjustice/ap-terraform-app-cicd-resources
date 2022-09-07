@@ -12,7 +12,7 @@ module "example" {
 
   push_arns = ["A1234"]
 
-  repo                        = "example2"
+
   organisation                = "example organisation"
   openid_connect_provider_arn = "examplearn"
 

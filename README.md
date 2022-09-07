@@ -44,7 +44,6 @@ No resources.
 | <a name="input_organisation"></a> [organisation](#input\_organisation) | The name of the GitHub organisation or user | `string` | n/a | yes |
 | <a name="input_pull_arns"></a> [pull\_arns](#input\_pull\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
 | <a name="input_push_arns"></a> [push\_arns](#input\_push\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
-| <a name="input_repo"></a> [repo](#input\_repo) | The name of the GitHub repository | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to the resources | `map(string)` | `{}` | no |
 | <a name="input_template_owner"></a> [template\_owner](#input\_template\_owner) | Name of the organisation owning the template repository | `string` | n/a | yes |
 | <a name="input_template_repository"></a> [template\_repository](#input\_template\_repository) | Name of the template repository to use | `string` | n/a | yes |

@@ -3,10 +3,6 @@ variable "organisation" {
   type        = string
 }
 
-variable "repo" {
-  description = "The name of the GitHub repository"
-  type        = string
-}
 
 variable "openid_connect_provider_arn" {
   description = "The ARN of the AWS IAM OpenID connect provider"

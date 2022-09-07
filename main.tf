@@ -1,7 +1,7 @@
 module "deployment_role" {
   source                      = "git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git?ref=v1.1.0"
   organisation                = var.organisation
-  repo                        = var.repo
+  repo                        = var.application_name
   openid_connect_provider_arn = var.openid_connect_provider_arn
   tags                        = var.tags
 }
