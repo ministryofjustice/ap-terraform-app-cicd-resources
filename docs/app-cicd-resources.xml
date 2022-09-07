@@ -1,0 +1,47 @@
+<mxGraphModel dx="1404" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="McJG6gNkSQGXVhFgkkbi-1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="760" y="200" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="120" y="80" width="640" height="240" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="362.5" y="142.5" width="157.5" height="127.5" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-7" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecr;" vertex="1" parent="1">
+      <mxGeometry x="411.5" y="150" width="57" height="57" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="160" y="142.5" width="150" height="127.5" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-10" value="Deployment Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" vertex="1" parent="1">
+      <mxGeometry x="207.5" y="147" width="60" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="560" y="142.5" width="150" height="127.5" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-network-9/50/29-128.png" vertex="1" parent="1">
+      <mxGeometry x="607.5" y="150" width="60" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-21" value="ap-terraform-ecr-repository" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+      <mxGeometry x="356.25" y="240" width="170" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-22" value="ap-terraform-app-&lt;br&gt;deployment-role" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="182.5" y="230" width="110" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-23" value="ap-terraform-app-github-repo" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="550" y="240" width="170" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ap-terraform-app-cicd-resources&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="342.5" y="90" width="210" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="McJG6gNkSQGXVhFgkkbi-25" value="ECR repo" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="207" width="80" height="30" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

@@ -32,3 +32,5 @@ override.tf.json
 # example: *tfplan*
 
 
+# remove ds store
+.DS_Store
