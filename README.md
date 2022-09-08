@@ -1,7 +1,7 @@
 ap-terraform-app-cicd-resources module to combine ap-terraform-ecr-repository, ap-terraform-app-github-repo and ap-terraform-app-deployment-role modules
 
 
-![image](/docs/app-cicd.drawio.png
+![image](./docs/app-cicd.drawio.png)
 
 Note: This module has no provider requirements but the modules called require
 
