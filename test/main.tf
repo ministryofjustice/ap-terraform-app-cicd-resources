@@ -5,6 +5,8 @@ module "example" {
   description         = "githubrepotest"
   template_owner      = "gitrepo"
   template_repository = "templaterepo"
+  admin_team          = "admin_team"
+  maintainer_team     = "maintainer_team"
 
   pull_arns = ["A1234"]
 
@@ -12,8 +14,8 @@ module "example" {
 
   push_arns = ["A1234"]
 
-
   organisation                = "example organisation"
   openid_connect_provider_arn = "examplearn"
+
 
 }
