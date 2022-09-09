@@ -42,3 +42,13 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "admin_team" {
+  description = "Name of the admin team"
+  type        = string
+}
+
+variable "maintainer_team" {
+  description = "Name of the maintainer team"
+  type        = string
+}

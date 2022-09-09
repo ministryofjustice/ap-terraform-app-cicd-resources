@@ -28,7 +28,7 @@ No providers.
 |------|--------|---------|
 | <a name="module_deployment_role"></a> [deployment\_role](#module\_deployment\_role) | git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git | v1.1.0 |
 | <a name="module_ecr_repository"></a> [ecr\_repository](#module\_ecr\_repository) | git@github.com:ministryofjustice/ap-terraform-ecr-repository.git | v1.1.0 |
-| <a name="module_github_repo"></a> [github\_repo](#module\_github\_repo) | git@github.com:ministryofjustice/ap-terraform-app-github-repo.git | v1.1.0 |
+| <a name="module_github_repo"></a> [github\_repo](#module\_github\_repo) | git@github.com:ministryofjustice/ap-terraform-app-github-repo.git | v1.2.0 |
 
 ## Resources
 
@@ -38,8 +38,10 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_admin_team"></a> [admin\_team](#input\_admin\_team) | Name of the admin team | `string` | n/a | yes |
 | <a name="input_application_name"></a> [application\_name](#input\_application\_name) | Name of the ECRand git repository. | `string` | n/a | yes |
 | <a name="input_description"></a> [description](#input\_description) | Description for the repository | `string` | n/a | yes |
+| <a name="input_maintainer_team"></a> [maintainer\_team](#input\_maintainer\_team) | Name of the maintainer team | `string` | n/a | yes |
 | <a name="input_openid_connect_provider_arn"></a> [openid\_connect\_provider\_arn](#input\_openid\_connect\_provider\_arn) | The ARN of the AWS IAM OpenID connect provider | `string` | n/a | yes |
 | <a name="input_organisation"></a> [organisation](#input\_organisation) | The name of the GitHub organisation or user | `string` | n/a | yes |
 | <a name="input_pull_arns"></a> [pull\_arns](#input\_pull\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
