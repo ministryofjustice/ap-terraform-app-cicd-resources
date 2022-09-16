@@ -7,7 +7,7 @@ module "deployment_role" {
 }
 module "ecr_repository" {
   source    = "git@github.com:ministryofjustice/ap-terraform-ecr-repository.git?ref=v1.1.0"
-  push_arns = var.push_arns
+  push_arns = [module.deployment_role.arn]
   pull_arns = var.pull_arns
   name      = var.application_name
   tags      = var.tags
