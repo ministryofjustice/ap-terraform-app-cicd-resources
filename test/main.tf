@@ -12,7 +12,7 @@ module "example" {
 
   application_name = "foo bar"
 
-  push_arns = ["A1234"]
+  #push_arns = ["A1234"]
 
   organisation                = "example organisation"
   openid_connect_provider_arn = "examplearn"

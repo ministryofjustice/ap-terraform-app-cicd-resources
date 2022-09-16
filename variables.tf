@@ -8,10 +8,10 @@ variable "openid_connect_provider_arn" {
   description = "The ARN of the AWS IAM OpenID connect provider"
   type        = string
 }
-variable "push_arns" {
-  type        = list(string)
-  description = "List of IAM ARNs that can push and pull images and tags."
-}
+#variable "push_arns" {
+#  type        = list(string)
+#  description = "List of IAM ARNs that can push and pull images and tags."
+#}
 variable "pull_arns" {
   type        = list(string)
   description = "List of IAM ARNs that can push and pull images and tags."
