@@ -2,18 +2,18 @@ module "example" {
   source = "./.."
 
 
-  description         = "githubrepotest"
-  template_owner      = "gitrepo"
-  template_repository = "templaterepo"
-  admin_team          = "admin_team"
-  maintainer_team     = "maintainer_team"
+  description         = "github-repo-test"
+  template_owner      = "moj-analytical-services"
+  template_repository = "rshiny-template-405"
+  admin_team          = "analytical-platform"
+  maintainer_team     = "analytical-platform"
 
-  pull_arns = ["A1234"]
+  pull_arns = ["arn:aws:iam::525294151996:root"]
 
-  application_name = "foo bar"
+  application_name = "test-application-name"
 
-  organisation                = "example organisation"
-  openid_connect_provider_arn = "examplearn"
+  organisation                = "moj-analytical-services"
+  openid_connect_provider_arn = "arn:aws:iam::525294151996:oidc-provider/token.actions.githubusercontent.com"
 
 
 }
