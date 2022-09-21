@@ -14,7 +14,7 @@ module "ecr_repository" {
 }
 
 module "github_repo" {
-  source              = "git@github.com:ministryofjustice/ap-terraform-app-github-repo.git?ref=v1.5.0"
+  source              = "git@github.com:ministryofjustice/ap-terraform-app-github-repo.git?ref=v1.6.0"
   name                = var.application_name
   description         = var.description
   template_owner      = var.template_owner
