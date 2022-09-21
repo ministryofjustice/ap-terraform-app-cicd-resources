@@ -28,7 +28,7 @@ No providers.
 |------|--------|---------|
 | <a name="module_deployment_role"></a> [deployment\_role](#module\_deployment\_role) | git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git | v1.1.0 |
 | <a name="module_ecr_repository"></a> [ecr\_repository](#module\_ecr\_repository) | git@github.com:ministryofjustice/ap-terraform-ecr-repository.git | v1.1.0 |
-| <a name="module_github_repo"></a> [github\_repo](#module\_github\_repo) | git@github.com:ministryofjustice/ap-terraform-app-github-repo.git | v1.4.0 |
+| <a name="module_github_repo"></a> [github\_repo](#module\_github\_repo) | git@github.com:ministryofjustice/ap-terraform-app-github-repo.git | v1.5.0 |
 
 ## Resources
 
