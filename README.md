@@ -26,7 +26,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_deployment_role"></a> [deployment\_role](#module\_deployment\_role) | git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git | v1.1.0 |
+| <a name="module_deployment_role"></a> [deployment\_role](#module\_deployment\_role) | git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git | v1.2.0 |
 | <a name="module_ecr_repository"></a> [ecr\_repository](#module\_ecr\_repository) | git@github.com:ministryofjustice/ap-terraform-ecr-repository.git | v1.1.0 |
 | <a name="module_github_repo"></a> [github\_repo](#module\_github\_repo) | git@github.com:ministryofjustice/ap-terraform-app-github-repo.git | v1.7.0 |
 
@@ -44,6 +44,7 @@ No resources.
 | <a name="input_maintainer_team"></a> [maintainer\_team](#input\_maintainer\_team) | Name of the maintainer team | `string` | n/a | yes |
 | <a name="input_openid_connect_provider_arn"></a> [openid\_connect\_provider\_arn](#input\_openid\_connect\_provider\_arn) | The ARN of the AWS IAM OpenID connect provider | `string` | n/a | yes |
 | <a name="input_organisation"></a> [organisation](#input\_organisation) | The name of the GitHub organisation or user | `string` | n/a | yes |
+| <a name="input_permissions_boundary"></a> [permissions\_boundary](#input\_permissions\_boundary) | ARN of the policy that is used to set the permissions boundary for the role | `string` | n/a | yes |
 | <a name="input_pull_arns"></a> [pull\_arns](#input\_pull\_arns) | List of IAM ARNs that can push and pull images and tags. | `list(string)` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to the resources | `map(string)` | `{}` | no |
 | <a name="input_template_owner"></a> [template\_owner](#input\_template\_owner) | Name of the organisation owning the template repository | `string` | n/a | yes |

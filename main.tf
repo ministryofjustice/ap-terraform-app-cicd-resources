@@ -1,10 +1,12 @@
 module "deployment_role" {
-  source                      = "git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git?ref=v1.1.0"
+  source                      = "git@github.com:ministryofjustice/ap-terraform-app-deployment-role.git?ref=v1.2.0"
   organisation                = var.organisation
-  repo                        = var.application_name
+  repo                        = "app-${var.application_name}"
+  permissions_boundary        = var.permissions_boundary
   openid_connect_provider_arn = var.openid_connect_provider_arn
   tags                        = var.tags
 }
+
 module "ecr_repository" {
   source    = "git@github.com:ministryofjustice/ap-terraform-ecr-repository.git?ref=v1.1.0"
   push_arns = [module.deployment_role.arn]
